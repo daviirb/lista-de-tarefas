@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.container{
+    display: block;
+    background-color: #3D4DD9;
+    max-width: 800px;
+    margin: 150px auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 41px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px;
+}
+
+form{
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+form input{
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+#adicionar-button{
+    background-color: #FFA927;
+}
+
+ul{
+    padding: 16px;
+    margin-left: 16px;
+    color: #fff ;
+}
+
+ul li{
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}
